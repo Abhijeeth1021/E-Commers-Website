@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Bootstrap - Taster </title><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+     <link rel="stylesheet" type="text/css" href="main.css">	
+</head>
+	
+	<div id="container">
+	<a href="index.html"><img id="logo" src="logo.jpg"></a>
+      <!-- addind and image and hyperlinking it to home page  -->
+<body>
+<div class="container">
+ <h1> Game Time </h1>
+ </div>
+<nav class="navbar navbar-expand-lg navbar-light ">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	<div id="nav">
+	
+		<ul id="menu">
+		  <li><a href="index.html">Home</a></li>
+		  <li><a href="play.html">PlayStaton</a></li>
+		  <li><a href="xbox.html">X Box</a></li>
+          <li><a href="pc.html">PC</a></li>
+		  <li><a href="log.html">Login</a></li>
+		  <li><a href="ContactUs.html">Contact Us</a></li>
+	</div>     <!-- addind buttons and links in my navigation bar -->
+</nav>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<html lang="en">
+<head>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<style>
+       <!-- script to link stylesheet -->
+</style>
+<script>
+ function cart() {   
+ if(confirm("Do you really want to buy?") == true){
+  alert("It is successfully added in your cart!");
+  }
+ else{
+  alert(" Do you want to search more? ");
+  location.replace("index.html");
+ }
+}
+function view()
+		{
+		  location.replace("pcproduct1.html");
+		}
+		
+function view2()
+		{
+		  location.replace("pcproduct2.html");
+		}
+		
+function view3()
+		{
+		  location.replace("pcproduct3.html");
+		}
+		
+</script>
+</head>
+<body>
+ <!-- script fro the buttons on product page -->
+  <h1 style="color:red;text-align:center;">  
+        PC Games  
+    </h1>  
+<div class="bs-example">
+    <div class="container">
+	 <div class="card-group">
+        <div class="row">
+            <div class="card col-md-4">
+                
+                    <img class="card-img-top" src="pc1.jpg"  alt="..." width="450" height="450">
+                    <div class="card-body">
+                        <h5 class="card-title">Rainbow Six Siege</h5>
+                        <p class="card-text">Squad up and breach in to explosive 5v5 PVP action. Tom Clancy's Rainbow Six Siege features a huge roster of specialized operators, each with game-changing gadgets to help you.</p>
+                    </div>
+                   <div>
+					    <button type="button" class="btn btn-primary" onclick="view();"> View </button>
+						<button type="button" class="btn btn-success" onclick="cart();"> Add to Cart </button>
+					</div>	
+                    <div class="card-footer">
+                        <small class="text-muted">Price £7.00 and Rating 4.5 out of 5</small>
+                    </div>
+                </div>
+                <div class="card col-md-4">
+                    <img class="card-img-top" src="pc2.jpg"  alt="..." width="440" height="440">
+                    <div class="card-body">
+                        <h5 class="card-title">Escape From Tarkov</h5>
+                        <p class="card-text">Set in a fictional Norvinsk region in north-western Russia, Escape from Tarkov is a highly realistic first-person shooter with substantial MMO survival elements.</p>
+                    </div>
+                    <div>
+					    <button type="button" class="btn btn-primary" onclick="view2();"> View </button>
+						<button type="button" class="btn btn-success" onclick="cart2();"> Add to Cart </button>
+					</div>	
+                    <div class="card-footer">
+                        <small class="text-muted">Price £38.00 and Rating 4 out of 5</small>
+                    </div>
+                </div>
+                <div class="card col-md-4">
+                    <img class="card-img-top" src="pc3.jpg"  alt="..." width="450" height="450">
+                    <div class="card-body">
+                        <h5 class="card-title">GTA 5</h5>
+                        <p class="card-text">Grand Theft Auto V. A young street hustler, a retired bank robber and a terrifying psychopath must pull off a series of dangerous heists to survive in a ruthless city</p>
+                    </div>
+					<div>
+					    <button type="button" class="btn btn-primary" onclick="view3();"> View </button>
+						<button type="button" class="btn btn-success" onclick="cart3();"> Add to Cart </button>
+					</div>	
+                    <div class="card-footer">
+                        <small class="text-muted">Price £17.00 and Rating 4.5 out of 5</small>
+                    </div>
+                </div>       <!-- script fro the infromation on product pages  -->
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html> 
+<script src="main.js"></script>
+</body>
+</html>

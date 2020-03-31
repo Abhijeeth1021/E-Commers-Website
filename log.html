@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Bootstrap - Taster </title><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+     <link rel="stylesheet" type="text/css" href="main.css">
+	 
+<script>
+function home()
+		{
+		  location.replace("home page.html");
+		} <!-- link to home page -->
+</script>		
+</head>
+	
+	<div id="container">
+	<a href="index.html"><img id="logo" src="logo.jpg"></a>
+      <!-- addind and image and hyperlinking it to home page  -->
+<body>
+<div class="container">
+ <h1> Game Time </h1>
+ </div>
+<nav class="navbar navbar-expand-lg navbar-light ">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	<div id="nav">
+	
+		<ul id="menu">
+		  <li><a href="index.html">Home</a></li>
+		  <li><a href="play.html">PlayStaton</a></li>
+		  <li><a href="xbox.html">X Box</a></li>
+          <li><a href="pc.html">PC</a></li>
+		  <li><a href="log.html">Login</a></li>
+		  <li><a href="ContactUs.html">Contact Us</a></li>
+	</div>     <!-- addind buttons and links in my navigation bar -->
+</nav>
+ <!-- style for login form  -->
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+form {width: 700px; border: 5px solid red;}
+
+input[type=text], input[type=password] {
+  width: 300px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #6ab446;
+  color: white;
+  padding: 14px 20px;
+  margin: 15px 25px;
+  border: none;
+  cursor: pointer;
+  width: 200px;
+}
+
+button:hover {
+  opacity: 0.5;
+}
+
+
+.container {
+  padding: 16px;
+ 
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  
+}
+</style>
+<script type = "text/javascript">
+   <!--
+      // Form validation code will come here.
+      function validate() {
+      
+         if( document.myForm.uname.value == "" ) {
+            alert( "Please provide your name!" );
+            document.myForm.uname.focus() ;
+            return false;
+         }
+         if( document.myForm.psw.value == "" ) {
+            alert( "Please provide your Password!" );
+            document.myForm.psw.focus() ;
+            return false;
+         }
+		  if(( document.myForm.uname.value != "" ) &&  ( document.myForm.psw.value != "" ))
+		  alert( "Welcome!" );
+		}
+		function register()
+		{
+		   location.replace("index.html");
+		}
+		function cancel()
+		{
+		  location.replace("https://www.google.co.uk");
+		}   
+</script>		 
+</head>
+<body>
+ <!-- script fro the buttons on product page -->
+<h2>Login Form</h2>
+
+<form name = "myForm" onsubmit="return(validate());" action="index.html" >
+ 
+
+  <div class="container">
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" >
+      <br>
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" >
+        <br>
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+   <button type="submit">Login</button>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+	<br>
+    <button type="button"  onclick="cancel();">Cancel</button>
+	
+	<button type="button"  onclick="register();"> Not Registered</button>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+ <!-- additional script for the login form -->	
+  </div>
+</form>
+		<html class="log-bg">
+
+	<p>Social Media</p>`
+	<a href="https://www.instagram.com/"><img src="insta.png" alt="Instagram" width="80" height="80">
+	<a href="https://www.facebook.com/"><img src="fb.png" alt="Facebook" width="90" height="90">
+	<a href="https://twitter.com/?lang=en-gb"><img src="twitter.png" alt="Twitter" width="90" height="90">
+<!-- social media allows you to add images and links to other pages  -->
+<head>
+<style>
+
+<script src="main.js"></script>
+</body>
+</html>

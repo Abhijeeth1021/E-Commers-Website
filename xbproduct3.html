@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Bootstrap - Taster </title><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+     <link rel="stylesheet" type="text/css" href="main.css">		
+</head>
+	
+	<div id="container">
+	<a href="index.html"><img id="logo" src="logo.jpg"></a>
+<!-- addind and image and hyperlinking it to home page  -->
+<body>
+<div class="container">
+ <h1> Game Time </h1>
+ </div>
+<nav class="navbar navbar-expand-lg navbar-light ">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	<div id="nav">
+	
+		<ul id="menu">
+		  <li><a href="index.html">Home</a></li>
+		  <li><a href="play.html">PlayStaton</a></li>
+		  <li><a href="xbox.html">X Box</a></li>
+          <li><a href="pc.html">PC</a></li>
+		  <li><a href="log.html">Login</a></li>
+		  <li><a href="ContactUs.html">Contact Us</a></li>
+	</div>  <!-- addind buttons and links in my navigation bar -->
+</nav>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<html lang="en">
+<head>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<style>
+       <!-- script to link stylesheet -->
+</style>
+<script>
+ function cart1() {   
+ if(confirm("Are you sure you want to buy this iteam?") == true){
+  alert("It is successfully added in your cart!");
+  }
+ else{
+  alert(" Do you want to search more? ");
+  location.replace("index.html");
+ }
+}
+function exit1()		{
+		  location.replace("xbox.html");
+		}
+ <!-- script fro the buttons on product page -->
+</script>
+</head>
+<body>
+<div class="bs-example">
+    <div class="card" style="max-width: 500px;">
+        <div class="row no-gutters">
+            <div class="col-md-5" style="background: #868e96;">
+                <img src="xb3.jpg" class="card-img-top h-100" alt="...">
+            </div>
+            <div class="col-md-7">
+                <div class="card-body">
+                        <h5 class="card-title">FORZA Horizon 4</h5>
+                        <p class="card-text">Dynamic seasons change everything at the worlds greatest automotive festival. Go it alone or team up with others to explore beautiful and historic Britain</p>						
+							<!-- script for the buttons on product page --> 
+						<button type="button" class="btn btn-primary" onclick="cart1();"> Add to Cart </button>
+						<button type="button" class="btn btn-secondary" onclick="exit1();"> Exit </button>
+					</div>
+					
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>  

@@ -1,0 +1,114 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: white;
+}
+
+.navbar {
+  background:#6ab446;
+}
+/* when the pointer goes on the */
+ul#nav li a:hover {
+    background-color:#14dbff;
+}
+/* settings for background image positioning  */
+.header {
+  background-image: url('header-background1.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+/* settings for overlay  */
+.overlay {
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.8);
+}
+.description {
+  left: 50%;
+  position: absolute;
+  top: 45%;
+  transform: translate(-50%, -55%);
+  text-align: center;
+}
+/* all discription scripts are for the explore button on the index page */
+.description h1 {
+  color: #6ab446;
+}
+.description button {
+  border:1px solid #6ab446;
+  background:#6ab446;
+  border-radius: 0;
+  color:red;
+}
+
+.description button:hover {
+  border:1px solid #fff;
+  background:#fff;
+  color:blue;
+}
+/* used to set the text colour for the name of the website */
+h1 {
+  color: blue;
+}
+/* script for the colour, shape and hover feature of the navigation bar */
+ul#menu li a:hover {
+    background-color:#6ab446;
+}
+	#nav {
+		padding:25px 30px;
+		background:#6ab446;
+	}
+	#nav ul {
+		margin:0;
+		padding:0;
+		list-style:time new roman;
+	}
+	#nav li {
+		display:inline;
+		margin:0;
+		padding:0;
+	}
+ul#menu {
+    padding: 0;
+}
+
+ul#menu li {
+    display: inline;
+}
+
+ul#menu li a {
+    background-color: black;
+    color:#041df9 ;
+    padding: 20px 40px;
+    text-decoration: none;
+    border-radius: 45px 4px 45px 4px;
+}
+/* settings for logo */
+#logo {
+	height:140px;
+	width:140px;
+	float:left;
+	padding:5px;
+	position:relative;
+	top:-20px;
+	left:-20px;
+}
+/* sets base style for each page */
+body {
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+/* set background image per page */
+.log-bg {
+background: url(images/header-background1.jpg) no-repeat center center fixed;
+}
+.contactUs-bg {
+background: url(images/header-background1.jpg) no-repeat center center fixed;
+}
